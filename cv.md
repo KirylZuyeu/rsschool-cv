@@ -53,11 +53,11 @@ I like the process of learning and self-development. I want to get a Front-End D
 	
 ---
 ## Languages ## 
-  - **English:**
+  - **English:** A2 - Pre-Intermediate
 
 ---
 ## Contact ## 
   **Skype:** [@KirylZuyeu](https://join.skype.com/invite/eefLxkBv0HuY)  
   **LinkedIn:** [@KirylZuyeu](https://www.linkedin.com/in/kirylzuyeu)  
   **Facebook:** [@KirylZuyeu](https://www.facebook.com/kiryl.zuyeu)  
-  **GitHub:** [@KirylZuyeu](https://www.facebook.com/kiryl.zuyeu)
+  **GitHub:** [@KirylZuyeu](https://github.com/KirylZuyeu)
