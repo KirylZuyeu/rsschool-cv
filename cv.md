@@ -54,6 +54,7 @@ I like the process of learning and self-development. I want to get a Front-End D
 ---
 ## Languages ## 
   - **English:** A2 - Pre-Intermediate
+  - **Deutsch:** A1 - Begginer
 
 ---
 ## Contact ## 
