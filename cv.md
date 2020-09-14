@@ -11,8 +11,27 @@
 I like the process of learning and self-development. I want to get a Front-End Developer position and then will be a team leader in a large IT-company from the coming few years. This will be a proof to myself and others that if you work hard and manage your discipline, you can always change your life and sphere of activity. My main quality is a conscientious attitude to work and focus on the results. Also, I have an extensive experience of managing people, which will help me to be a great team leader.
 
 ## Skills ##
+**Professional skills:**
+- HTML5
+- CSS3
+  - Flex / Grid
+- Scss
+- JavaScript
+  * EC66+б
+  * Babel
+- Git
+- VSCode
+- Webpack
+- Npm
+- Firebase
+- Freamworks
+  - Bootstrap 4
+  - Materialize
+- React
+- PhotoShop / Figma
 
 **Additional information:** The ability to work in multitasking mode and high analytical abilities allow me to work effectively with large volumes of information.
+
 ## Code examples ## 
 *My GitHub profile:* [@KirylZuyeu](https://github.com/KirylZuyeu)
 ## Experience ##
