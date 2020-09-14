@@ -46,10 +46,10 @@ I like the process of learning and self-development. I want to get a Front-End D
 ## Education ##
    I don't have a specialized education, but I spend a lot of time on self-taught learning.  
    And these are the resources that I use:  
-   -**Media**: https://www.youtube.com;  
-   -**Books**: *Head First Html and CSS*, *Eloquent JavaScript* and etc.;   
-   -**e.Books**: https://learn.javascript.ru, http://htmlbook.ru and etc.;  
-   -**Resources**: https://www.freecodecamp.org;
+   -***Media***: https://www.youtube.com;  
+   -***Books***: *Head First Html and CSS*, *Eloquent JavaScript* and etc.;   
+   -***e.Books***: https://learn.javascript.ru, http://htmlbook.ru and etc.;  
+   -***Resources***: https://www.freecodecamp.org;
 	
 ---
 ## Languages ## 
