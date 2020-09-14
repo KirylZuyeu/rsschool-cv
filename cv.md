@@ -2,9 +2,6 @@
 **Address:** Belarus, c.Krichev  
 **Phone:** +375292470741  
 **E-mail:** kirylzuyeuimh@gmail.com   
-**Skype:** [@KirylZuyeu](https://join.skype.com/invite/eefLxkBv0HuY)  
-**LinkedIn:** [@KirylZuyeu](https://www.linkedin.com/in/kirylzuyeu)  
-**Facebook:** [@KirylZuyeu](https://www.facebook.com/kiryl.zuyeu)
 
 ## Summary ##
 
@@ -54,3 +51,13 @@ I like the process of learning and self-development. I want to get a Front-End D
    -**e.Books**: https://learn.javascript.ru, http://htmlbook.ru and etc.;  
    -**Resources**: https://www.freecodecamp.org;
 	
+---
+## Languages ## 
+  - **English:**
+
+---
+## Contact ## 
+  **Skype:** [@KirylZuyeu](https://join.skype.com/invite/eefLxkBv0HuY)  
+  **LinkedIn:** [@KirylZuyeu](https://www.linkedin.com/in/kirylzuyeu)  
+  **Facebook:** [@KirylZuyeu](https://www.facebook.com/kiryl.zuyeu)  
+  **GitHub:** [@KirylZuyeu](https://www.facebook.com/kiryl.zuyeu)
