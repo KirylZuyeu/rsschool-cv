@@ -109,7 +109,22 @@ void getMaxLeft(Node** root, int* maxValueLeft) {
 
 ## **Experience** ##
 
+During all period of education i was doing only one huge project, with following technologies:
 
+* VSCode
+* Git
+* Npm
+* Webpack
+* Netlify
+* HTML
+* CSS
+* JavaScript
+* API with info of covid
+* Chank.js
+
+On this project, ***the task that stood*** in front of me was the ***creation of graphs*** based on the data obtained about covid ill people. And the main ***technology that i use***, was ***Chank.js*** library.   
+
+[![CovidDashboard](./images/project.PNG)](https://kirylzuyeu-covid-dashboard.netlify.app/ "Click for watching 'Covid Dashboard'")
 
 ***
 
