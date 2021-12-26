@@ -7,7 +7,7 @@
 * **Address:** Belarus, c.Minsk
 * **Phone:** +375292470741  
 * **E-mail:** kirylzuyeuimh@gmail.com
-* **Telegram** [kirylzuyeuimh@gmail.com](https://t.me/KirylZuyeu)
+* **Telegram** [@KirylZuyeu](https://t.me/KirylZuyeu)
 
 ***
 
@@ -119,12 +119,13 @@ void getMaxLeft(Node** root, int* maxValueLeft) {
 
 * Completed
   * ***[Rsschool, CERTIFICATE - JS/FE 2020](https://app.rs.school/certificate/trmz9yqo)***
+  [![RsschoolCertificate](/images/rsschoolCertificate.PNG)](https://app.rs.school/certificate/trmz9yqo "Click for watching 'Rsschool, CERTIFICATE - JS/FE 2020'")
 * Not Completed
   * ***Rsschool, ST 2021 Q1***
   
 ### **University-Graduation** ###
 
-Studying with **27.09.2021** till **27.09.2021** - ***[BSUIR, Information Systems Software](https://iti.bsuir.by/specialty/2)***
+Studying with **27.09.2021** till **27.09.2021** - ***[BSUIR, Information Systems Software](https://iti.bsuir.by/specialty/2)*** (in progress)
 ***
 
 ## **Languages** ##
