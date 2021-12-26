@@ -119,7 +119,7 @@ void getMaxLeft(Node** root, int* maxValueLeft) {
 
 * Completed
   * ***[Rsschool, CERTIFICATE - JS/FE 2020](https://app.rs.school/certificate/trmz9yqo)***  
-  [![RsschoolCertificate](/images/rsschoolCertificate.PNG)](https://app.rs.school/certificate/trmz9yqo "Click for watching 'Rsschool, CERTIFICATE - JS/FE 2020'")
+  [![RsschoolCertificate](./images/rsschoolCertificate.PNG)](https://app.rs.school/certificate/trmz9yqo "Click for watching 'Rsschool, CERTIFICATE - JS/FE 2020'")
 * Not Completed
   * ***Rsschool, ST 2021 Q1***
   
