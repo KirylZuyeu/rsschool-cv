@@ -118,7 +118,7 @@ void getMaxLeft(Node** root, int* maxValueLeft) {
 ### **Selftaught-Education** ###
 
 * Completed
-  * ***[Rsschool, CERTIFICATE - JS/FE 2020](https://app.rs.school/certificate/trmz9yqo)***
+  * ***[Rsschool, CERTIFICATE - JS/FE 2020](https://app.rs.school/certificate/trmz9yqo)***  
   [![RsschoolCertificate](/images/rsschoolCertificate.PNG)](https://app.rs.school/certificate/trmz9yqo "Click for watching 'Rsschool, CERTIFICATE - JS/FE 2020'")
 * Not Completed
   * ***Rsschool, ST 2021 Q1***
@@ -130,7 +130,8 @@ Studying with **27.09.2021** till **27.09.2021** - ***[BSUIR, Information System
 
 ## **Languages** ##
 
-* **English:** B1 - Intermediate
+* **English:** B1 - Intermediate (***according to the online test at***)[www.efset.org](https://www.efset.org/quick-check/)   
+![EnglishCertificate](/images/english.PNG)
 * **Deutsch:** A1 - Begginer
 
 ***
