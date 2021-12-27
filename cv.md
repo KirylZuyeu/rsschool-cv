@@ -141,7 +141,7 @@ On this project, ***the task that stood*** in front of me was the ***creation of
   
 ### **University-Graduation** ###
 
-Studying with **27.09.2021** till **27.09.2021** - ***[BSUIR, Information Systems Software](https://iti.bsuir.by/specialty/2)*** (in progress)
+Studying with **27.09.2021** till **27.09.2023** - ***[BSUIR, Information Systems Software](https://iti.bsuir.by/specialty/2)*** (in progress)
 ***
 
 ## **Languages** ##
