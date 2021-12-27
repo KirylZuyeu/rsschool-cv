@@ -4,7 +4,7 @@
 
 ## **Contacts** ##
 
-* **Address:** Belarus, c.Minsk
+* **Address:** Belarus, Minsk
 * **Phone:** +375292470741  
 * **E-mail:** kirylzuyeuimh@gmail.com
 * **Discord:** KirylZuyeu#1555
