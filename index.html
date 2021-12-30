@@ -4,10 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML, CSS & Git Basics</title>
+    <title>CV. Cross-Check</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="wrapper">
+        <header class="box header">
+          <h1>Kiryl Zuyeu</h1>
+          <p>Future Front-End Developer</p>
+        </header>
+        <main class="box content">
+          <section>
+            <h2>Summary</h2>
+            <p>I like the process of learning and self-development. I want to get a Front-End Developer position and then will be a team leader in a large IT-company from the coming few years. This will be a proof to myself and others that if you work hard and manage your discipline, you can always change your life and sphere of activity. My main quality is a conscientious attitude to work and focus on the results. Also, I have an extensive experience of managing people, which will help me to be a great team leader.</p>
+          </section>
+          <section>
+            <h2>Additional information:</h2>
+            <p>The ability to work in multitasking mode and high analytical abilities allow me to work effectively with large volumes of information.</p>
+          </section>
+          <section>
+            <h2>Code examples</h2>
+            <p><b>My GitHub profile:</b><a href="https://github.com/KirylZuyeu"> @KirylZuyeu</a></p>
+            <div class="snipet">
+              <p class="snipet__title"><b>Example of code:</b> <a
+                  href="https://www.codewars.com/kata/525481903700c1a1ff0000e1" target="blank">
+                  Codewars Task</a></p>
+              <pre class="snipet__description">
+              <code>
+                <span class="sntx-common">function</span> <span class="sntx-private">cache</span><span class="sntx-literal">(</span><span class="sntx-private">func</span><span class="sntx-literal">) {</span>
+                  <span class="sntx-common">var</span> <span class="sntx-private">calls</span> <span class="sntx-literal">= {};</span>
+                  <span class="sntx-common">return</span> <span class="sntx-common">function</span><span class="sntx-literal">() {</span>
+                    <span class="sntx-common">var</span> <span class="sntx-private">key</span> <span class="sntx-literal">= JSON.</span><span>stringify</span><span class="sntx-literal">(</span><span>arguments</span><span class="sntx-literal">);</span>
+                    <span class="sntx-common">if</span> <span class="sntx-literal">(!(</span><span>key</span> <span class="sntx-common">in</span> <span>calls</span><span class="sntx-literal">)) {</span>
+                      <span>calls</span><span class="sntx-literal">[</span><span>key</span><span class="sntx-literal">] = </span><span>func</span><span>.</span><span>apply</span><span class="sntx-literal">(</span><span>null</span><span>,</span><span>arguments</span><span class="sntx-literal">);</span>
+                    <span class="sntx-literal">}</span>
+                    <span class="sntx-common">return</span> <span>calls</span><span class="sntx-literal">[</span><span>key</span><span class="sntx-literal">];</span>
+                  <span class="sntx-literal">};</span>
+                <span class="sntx-literal">}</span>
+              </code>
+              </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Experience</h2>
+            <p>My commercial experience of programming will come in the future, but now I'm create a small local projects
+              that intended for a training. </p>
+            <div class="example-of-projects">
+              <h4>Example of project</h4>
+              <div class="covid-dashboard">
+                <a href="https://kirylzuyeu-covid-dashboard.netlify.app" target="blank"><img
+                    src="dashboard_image_1200x630.jpg" alt="Covid Dashdoard Tracker"></a>
+                <div>
+                  <p>Technologies that i used</p>
+                  <ul>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>JavaScript</li>
+                    <li>Chart.js</li>
+                    <li>Working with API</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>Education</h2>
+            <p>I don't have a specialized education, but I spend a lot of time on self-taught learning. And these are the
+              resources that I use:</p>
+            <ul>
+              <li><b>Media:</b> https://www.youtube.com;</li>
+              <li><b>Books:</b> *Head First Html and CSS*, *Eloquent JavaScript* and etc.;</li>
+              <li><b>e.Books:</b> https://learn.javascript.ru, http://htmlbook.ru and etc.;</li>
+              <li><b>Resources:</b> https://www.freecodecamp.org;</li>
+            </ul>
+          </section>
+        </main>
+        <aside class="box sidebar">
+          <figure>
+            <img src="myAvatar.jpg" alt="photo of curriculum vitae Kiryl Zuyeu">
+          </figure>
+          <section>
+            <h3>Contacts</h3>
+            <ul>
+              <li><b>Address:</b> Belarus, c.Krichev</li>
+              <li><b>Phone:</b> +375292470741</li>
+              <li><b>E-mail:</b> kirylzuyeuimh@gmail.com</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Professional skills:</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3: Flex / Grid</li>
+              <li>Scss</li>
+              <li>JavaScript: ES6 / Babel</li>
+              <li>Git</li>
+              <li>VSCode</li>
+              <li>Webpack</li>
+              <li>Npm</li>
+              <li>Firebase</li>
+              <li>Freamworks: Bootstrap 4 - Materialize</li>
+              <li>React</li>
+              <li>PhotoShop / Figma</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Languages</h3>
+            <ul>
+              <li><b>English:</b> A2 - Pre-Intermediate</li>
+              <li><b>Deutsch:</b> A1 - Begginer</li>
+            </ul>
+          </section>
+        </aside>
+        <footer class="box footer">
+          <div class="footer__contacts">
+            <h2>Contact</h2>
+            <ul>
+              <li><b>Skype:</b><a href="https://join.skype.com/invite/eefLxkBv0HuY">@KirylZuyeu</a></li>
+              <li><b>LinkedIn:</b><a href="https://www.linkedin.com/in/kirylzuyeu">@KirylZuyeu</a></li>
+              <li><b>Facebook:</b><a href="https://www.facebook.com/kiryl.zuyeu">@KirylZuyeu</a></li>
+              <li><b>GitHub:</b><a href="https://github.com/KirylZuyeu">@KirylZuyeu</a></li>
+            </ul>
+          </div>
+          <a class="footer__logo" href="https://rs.school/js/" target="blank"></a>
+          <span class="footer__copyright">© The Rolling Scopes 2021</span>
+        </footer>
+      </div>
 </body>
 </html>
