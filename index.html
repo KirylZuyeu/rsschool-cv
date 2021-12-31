@@ -11,127 +11,205 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="wrapper">
-        <header class="box header">
-          <h1>Kiryl Zuyeu</h1>
-          <p>Future Front-End Developer</p>
-        </header>
-        <main class="box content">
-          <section>
-            <h2>Summary</h2>
-            <p>I like the process of learning and self-development. I want to get a Front-End Developer position and then will be a team leader in a large IT-company from the coming few years. This will be a proof to myself and others that if you work hard and manage your discipline, you can always change your life and sphere of activity. My main quality is a conscientious attitude to work and focus on the results. Also, I have an extensive experience of managing people, which will help me to be a great team leader.</p>
-          </section>
-          <section>
-            <h2>Additional information:</h2>
-            <p>The ability to work in multitasking mode and high analytical abilities allow me to work effectively with large volumes of information.</p>
-          </section>
-          <section>
-            <h2>Code examples</h2>
-            <p><b>My GitHub profile:</b><a href="https://github.com/KirylZuyeu"> @KirylZuyeu</a></p>
-            <div class="snipet">
-              <p class="snipet__title"><b>Example of code:</b> <a
-                  href="https://www.codewars.com/kata/525481903700c1a1ff0000e1" target="blank">
-                  Codewars Task</a></p>
-              <pre class="snipet__description">
-              <code>
-                <span class="sntx-common">function</span> <span class="sntx-private">cache</span><span class="sntx-literal">(</span><span class="sntx-private">func</span><span class="sntx-literal">) {</span>
-                  <span class="sntx-common">var</span> <span class="sntx-private">calls</span> <span class="sntx-literal">= {};</span>
-                  <span class="sntx-common">return</span> <span class="sntx-common">function</span><span class="sntx-literal">() {</span>
-                    <span class="sntx-common">var</span> <span class="sntx-private">key</span> <span class="sntx-literal">= JSON.</span><span>stringify</span><span class="sntx-literal">(</span><span>arguments</span><span class="sntx-literal">);</span>
-                    <span class="sntx-common">if</span> <span class="sntx-literal">(!(</span><span>key</span> <span class="sntx-common">in</span> <span>calls</span><span class="sntx-literal">)) {</span>
-                      <span>calls</span><span class="sntx-literal">[</span><span>key</span><span class="sntx-literal">] = </span><span>func</span><span>.</span><span>apply</span><span class="sntx-literal">(</span><span>null</span><span>,</span><span>arguments</span><span class="sntx-literal">);</span>
-                    <span class="sntx-literal">}</span>
-                    <span class="sntx-common">return</span> <span>calls</span><span class="sntx-literal">[</span><span>key</span><span class="sntx-literal">];</span>
-                  <span class="sntx-literal">};</span>
-                <span class="sntx-literal">}</span>
-              </code>
-              </pre>
+  <div class="wrapper">
+    <header class="box header">
+      <h1>Kiryl Zuyeu</h1>
+      <p>Future Front-End Developer</p>
+    </header>
+    <main class="box content">
+      <section>
+        <h2>Summary</h2>
+        <p>I like the process of learning and self-development. I want to get a Front-End Developer position and then will be a team leader in a large IT-company from the coming few years. This will be a proof to myself and others that if you work hard and manage your discipline, you can always change your life and sphere of activity. My main quality is a conscientious attitude to work and focus on the results. Also, I have an extensive experience of managing people, which will help me to be a great team leader.</p>
+      </section>
+      <section>
+        <h2>Additional information:</h2>
+        <p>The ability to work in multitasking mode and high analytical abilities allow me to work effectively with large volumes of information.</p>
+      </section>
+      <section>
+        <h2>Code examples</h2>
+        <div>
+          <h3>JavaScript task solution:</h3>
+          <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+            Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).</p>
+          <pre>
+            <code>
+              function solution(number){
+                var sum = 0;
+                
+                for(var i = 1;i< number; i++){
+                  if(i % 3 == 0 || i % 5 == 0){
+                    sum += i
+                  }
+                }
+                return sum;
+              }
+            </code>
+          </pre>
+        </div>
+        <div>
+          <h3>C language task solution:</h3>
+          <p>Funtion of finding the max value in the left side of binary tree.</p>
+          <pre>
+            <code>
+              void getMaxLeft(Node** root, int* maxValueLeft) {
+                Node* tmp = (*root)->left;
+                if (tmp) {
+                    int maxOfLeft = tmp->key;
+                    while (tmp) {
+                        if (maxOfLeft < tmp->key) {
+                            maxOfLeft = tmp->key;
+                        }
+                        tmp = tmp->right;
+                    }
+                    *maxValueLeft = maxOfLeft;
+                }
+                else {
+                    printf("The left branch is empty.");
+                }
+            }
+            </code>
+          </pre>
+        </div>
+        <div>
+          <span>Or you can check</span>
+          <b>My GitHub profile:</b>
+          <a href="https://github.com/KirylZuyeu">@KirylZuyeu</a>
+        </div>
+      </section>
+      <section>
+        <h2>Experience</h2>
+        <p>During all period of education i was doing only one huge project, with following technologies:</p>
+        <div class="example-of-projects">
+          <h4>Example of project</h4>
+          <div class="covid-dashboard">
+            <div>
+              <p>Tools that i used</p>
+              <ul>
+                <li>VSCode</li>
+                <li>Git</li>
+                <li>Npm</li>
+                <li>Webpack</li>
+                <li>Netlify</li>
+              </ul>
             </div>
-          </section>
-          <section>
-            <h2>Experience</h2>
-            <p>My commercial experience of programming will come in the future, but now I'm create a small local projects
-              that intended for a training. </p>
-            <div class="example-of-projects">
-              <h4>Example of project</h4>
-              <div class="covid-dashboard">
-                <a href="https://kirylzuyeu-covid-dashboard.netlify.app" target="blank"><img
-                    src="dashboard_image_1200x630.jpg" alt="Covid Dashdoard Tracker"></a>
-                <div>
-                  <p>Technologies that i used</p>
-                  <ul>
-                    <li>Html</li>
-                    <li>Css</li>
-                    <li>JavaScript</li>
-                    <li>Chart.js</li>
-                    <li>Working with API</li>
-                  </ul>
-                </div>
-              </div>
+            <a href="https://kirylzuyeu-covid-dashboard.netlify.app" target="blank"><img
+                src="dashboard_image_1200x630.jpg" alt="Covid Dashdoard Tracker"></a>
+            <div>
+              <p>Technologies that i used</p>
+              <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>JavaScript</li>
+                <li>Chart.js</li>
+                <li>Working with API</li>
+              </ul>
             </div>
-          </section>
-          <section>
-            <h2>Education</h2>
-            <p>I don't have a specialized education, but I spend a lot of time on self-taught learning. And these are the
-              resources that I use:</p>
-            <ul>
-              <li><b>Media:</b> https://www.youtube.com;</li>
-              <li><b>Books:</b> *Head First Html and CSS*, *Eloquent JavaScript* and etc.;</li>
-              <li><b>e.Books:</b> https://learn.javascript.ru, http://htmlbook.ru and etc.;</li>
-              <li><b>Resources:</b> https://www.freecodecamp.org;</li>
-            </ul>
-          </section>
-        </main>
-        <aside class="box sidebar">
-          <figure>
-            <img src="./images/myAvatar.jpg" alt="photo of curriculum vitae Kiryl Zuyeu">
-          </figure>
-          <section>
-            <h3>Contacts</h3>
-            <ul>
-              <li><b>Address:</b> Belarus, c.Krichev</li>
-              <li><b>Phone:</b> +375292470741</li>
-              <li><b>E-mail:</b> kirylzuyeuimh@gmail.com</li>
-            </ul>
-          </section>
-          <section>
-            <h3>Professional skills:</h3>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <div>
+          <div>
+            <p>Selftaught-Education</p>
+          </div>
+          <div>
+            <p>University-Graduation</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <aside class="box sidebar">
+      <figure>
+        <img src="myAvatar.jpg" alt="photo of curriculum vitae Kiryl Zuyeu">
+      </figure>
+      <section>
+        <h3>Contacts</h3>
+        <ul>
+          <li><b>Address:</b> Belarus, c.Krichev</li>
+          <li><b>Phone:</b> +375292470741</li>
+          <li><b>E-mail:</b> kirylzuyeuimh@gmail.com</li>
+          <li><b>Discord:</b> KirylZuyeu#1555</li>
+          <li><b>Telegram:</b> <a href="https://t.me/KirylZuyeu">@KirylZuyeu</a></li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <span>Skype:</span>
+            <a href="https://join.skype.com/invite/eefLxkBv0HuY"></a>
+          </li>
+          <li>
+            <span>LinkedIn:</span>
+            <a href="https://www.linkedin.com/in/kirylzuyeu"></a>
+          </li>
+          <li>
+            <span>Facebook:</span>
+            <a href="https://www.facebook.com/kiryl.zuyeu"></a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Professional skills:</h2>
+        <div>
+          <div>
+            <h3>FrontEnd</h3>
             <ul>
               <li>HTML5</li>
               <li>CSS3: Flex / Grid</li>
               <li>Scss</li>
-              <li>JavaScript: ES6 / Babel</li>
-              <li>Git</li>
-              <li>VSCode</li>
-              <li>Webpack</li>
-              <li>Npm</li>
-              <li>Firebase</li>
-              <li>Freamworks: Bootstrap 4 - Materialize</li>
+              <li>Materialize</li>
+              <li>JavaScript</li>
               <li>React</li>
-              <li>PhotoShop / Figma</li>
-            </ul>
-          </section>
-          <section>
-            <h3>Languages</h3>
-            <ul>
-              <li><b>English:</b> A2 - Pre-Intermediate</li>
-              <li><b>Deutsch:</b> A1 - Begginer</li>
-            </ul>
-          </section>
-        </aside>
-        <footer class="box footer">
-          <div class="footer__contacts">
-            <h2>Contact</h2>
-            <ul>
-              <li><b>Skype:</b><a href="https://join.skype.com/invite/eefLxkBv0HuY">@KirylZuyeu</a></li>
-              <li><b>LinkedIn:</b><a href="https://www.linkedin.com/in/kirylzuyeu">@KirylZuyeu</a></li>
-              <li><b>Facebook:</b><a href="https://www.facebook.com/kiryl.zuyeu">@KirylZuyeu</a></li>
-              <li><b>GitHub:</b><a href="https://github.com/KirylZuyeu">@KirylZuyeu</a></li>
+              <li>Vue</li>
+              <li>Angular</li>
             </ul>
           </div>
-          <a class="footer__logo" href="https://rs.school/js/" target="blank"></a>
-          <span class="footer__copyright">© The Rolling Scopes 2021</span>
-        </footer>
-      </div>
+          <div>
+            <h3>Others</h3>
+            <ul>
+              <li>C language</li>
+              <li>C++ language</li>
+              <li>TypeScript</li>
+              <li>NodeJS</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Additional Tools</h3>
+            <ul>
+              <li>VSCode</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Npm</li>
+              <li>Webpack</li>
+              <li>Firebase</li>
+              <li>Netlify</li>
+              <li>PowerShell</li>
+              <li>PhotoShop</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3>Languages</h3>
+        <ul>
+          <li>
+            <b>English:</b> B1 - Intermediate
+          </li>
+          <li>
+            <b>Deutsch:</b> A1 - Begginer
+          </li>
+        </ul>
+      </section>
+    </aside>
+    <footer class="box footer">
+      <span>
+        <b>GitHub:</b><a href="https://github.com/KirylZuyeu">@KirylZuyeu</a>
+      </span>
+      <a class="footer__logo" href="https://rs.school/js/" target="blank"></a>
+      <span class="footer__copyright">© The Rolling Scopes 2021</span>
+    </footer>
+  </div>
 </body>
 </html>
