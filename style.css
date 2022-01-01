@@ -18,34 +18,179 @@ ul{
   --orange: #d6932e;
 }
 
-.wrapper{
-	max-width: 1200px;
+.wrapper {
+  max-width: 1200px;
   margin: 0 auto;
 }
-
 .header {
   background: red;
 }
-
+.header__title {
+  font-size: 26px;
+}
+.header__subtitle {
+  font-size: 16px;
+}
 .main {
   background: green;
-  /* width: 1200px; */
 }
-
 .main_wrapper {
   display: flex;
 }
-
-.main__content {
+.main__сontent {
   background: green;
   width: 60%;
 }
-
+.profile-info {
+}
+.profile-info__title {
+}
+.profile-info__content {
+}
+.additional-info {
+}
+.additional-info__title {
+}
+.additional-info__content {
+}
+.code {
+}
+.code__title {
+}
+.code__content {
+}
+.code-js {
+}
+.code-js__title {
+}
+.code-js__description {
+}
+.code-js__example {
+}
+.code-c {
+}
+.code-c__title {
+}
+.code-c__description {
+}
+.code-c__example {
+}
+.code-git {
+}
+.code-git__link {
+}
+.experience {
+}
+.experience__title {
+}
+.experience__description {
+}
+.experience__projects {
+}
+.project {
+}
+.project__title {
+}
+.project__section {
+}
+.project__tools {
+}
+.project__tools_description {
+}
+.project__tools_list {
+}
+.project__tools_item {
+}
+.project__link {
+}
+.project__link_image {
+}
+.project__tech {
+}
+.project__tech_description {
+}
+.project__tech_list {
+}
+.project__tech_item {
+}
+.education {
+}
+.education__title {
+}
+.education__content {
+}
+.education-selft {
+}
+.education-univer {
+}
 .main__aside {
   background: blue;
   width: 40%;
 }
-
+.social {
+}
+.social__list {
+}
+.social__item {
+}
+.social__item_title {
+}
+.social__item_link {
+}
+.contacts {
+}
+.contacts__title {
+}
+.contacts__list {
+}
+.contacts__item {
+}
+.skills {
+}
+.skills__title {
+}
+.skills__container {
+}
+.frontEnd-skills {
+}
+.frontEnd-skills__title {
+}
+.frontEnd-skills__list {
+}
+.frontEnd-skills__item {
+}
+.other-skills {
+}
+.other-skills__title {
+}
+.other-skills__list {
+}
+.other-skills__item {
+}
+.additional-tools {
+}
+.additional-tools__title {
+}
+.additional-tools__list {
+}
+.additional-tools__item {
+}
+.languages {
+}
+.languages__title {
+}
+.languages__list {
+}
+.languages__item {
+}
 .footer {
   background: purple;
+}
+.footer__container {
+}
+.footer__git {
+}
+.footer__link {
+}
+.footer__copyright {
 }
