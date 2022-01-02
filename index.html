@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV. Cross-Check</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV. Cross-Check</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <div class="wrapper">
     <header class="header">
-      <h1 class="header__title">Kiryl Zuyeu</h1>
-      <p class="header__subtitle">Future FullStack Developer</p>
+      <div class="header__wrapper">
+        <h1 class="header__title">Kiryl Zuyeu</h1>
+        <p class="header__subtitle">Future FullStack Developer</p>
+      </div>
     </header>
     <main class="main">
       <div class="main_wrapper">
         <div class="main__сontent">
-          <section class="profile-info">
-            <h2 class="profile-info__title">Profile info</h2>
+          <section class="profile-info container">
+            <div class="profile-info__title_container">
+              <h2 class="profile-info__title">Profile info</h2>
+            </div>
             <p class="profile-info__content">I like the process of learning and self-development. I want to get a Front-End Developer position and then will be a team leader in a large IT-company from the coming few years. This will be a proof to myself and others that if you work hard and manage your discipline, you can always change your life and sphere of activity. My main quality is a conscientious attitude to work and focus on the results. Also, I have an extensive experience of managing people, which will help me to be a great team leader.</p>
           </section>
-          <section class="additional-info">
-            <h2 class="additional-info__title">Additional info</h2>
+          <section class="additional-info container">
+            <div class="additional-info__title_container">
+              <h2 class="additional-info__title">Additional info</h2>
+            </div>
             <p class="additional-info__content">The ability to work in multitasking mode and high analytical abilities allow me to work effectively with large volumes of information.</p>
           </section>
-          <section class="code">
-            <h2 class="code__title">Code examples</h2>
+          <section class="code container">
+            <div class="code__title_container">
+              <h2 class="code__title">Code examples</h2>
+            </div>
             <div class="code__content">
               <div class="code-js">
-                <h3 class="code-js__title">JavaScript task solution:</h3>
-                <p class="code-js__description">If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
-                  Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).</p>
+                <div class="code-js__taks">
+                  <h3 class="code-js__title">JavaScript task:</h3>
+                  <p class="code-js__description">If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+                    Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).</p>
+                </div>
                 <pre class="code-js__example">
                   <code>
-                    function solution(number){
-                      var sum = 0;
-                      
-                      for(var i = 1;i< number; i++){
-                        if(i % 3 == 0 || i % 5 == 0){
-                          sum += i
-                        }
-                      }
-                      return sum;
-                    }
+        function solution(number) {
+          let sum = 0;
+          for (let i = 1; i < number; i++) {
+            if (i % 3 == 0 || i % 5 == 0) {
+              sum += i;
+            }
+          }
+          return sum;
+        }
                   </code>
                 </pre>
               </div>
@@ -76,13 +86,15 @@
             </div>
             <div class="code-git">
               <span>Or you can check</span>
-              <b>My GitHub profile:</b>
+              <span class="code-git__text">My GitHub profile:</span>
               <a href="https://github.com/KirylZuyeu"  class="code-git__link">@KirylZuyeu</a>
             </div>
           </section>
-          <section class="experience">
-            <h2 class="experience__title">Experience</h2>
-            <p class="experience__description">During all period of education i was doing only one huge project, with following technologies:</p>
+          <section class="experience container">
+            <div class="experience__title_container">
+              <h2 class="experience__title">Experience</h2>
+            </div>
+            <p class="experience__description">During in of all education period i was doing only one huge project:</p>
             <div class="experience__projects">    
               <div class="project">
                 <h4 class="project__title">Covid Dashboard</h4>
@@ -115,8 +127,10 @@
               </div>
             </div>
           </section>
-          <section class="education">
-            <h2 class="education__title">Education</h2>
+          <section class="education container">
+            <div class="education__title_container">
+              <h2 class="education__title">Education</h2>
+            </div>
             <div class="education__content">
               <div class="education-selft">
                 <p>Selftaught-Education</p>
@@ -128,10 +142,10 @@
           </section>
         </div>
         <div class="main__aside">
-          <figure>
+          <div class="container">
             <img src="./images/myAvatar.jpg" alt="Kiryl Zuyeu profile photo">
-          </figure>
-          <section class="social">
+          </div>
+          <section class="social container">
             <ul class="social__list">
               <li class="social__item">
                 <span class="social__item_title">Skype:</span>
@@ -147,7 +161,7 @@
               </li>
             </ul>
           </section>
-          <section class="contacts">
+          <section class="contacts container">
             <h3 class="contacts__title">Contacts</h3>
             <ul class="contacts__list">
               <li class="contacts__item"><b>Address:</b> Belarus, c.Minsk</li>
@@ -157,7 +171,7 @@
               <li class="contacts__item"><b>Telegram:</b> <a href="https://t.me/KirylZuyeu">@KirylZuyeu</a></li>
             </ul>
           </section>
-          <section class="skills">
+          <section class="skills container">
             <h2 class="skills__title">Professional skills</h2>
             <div class="skills__container">
               <div class="frontEnd-skills">
@@ -200,7 +214,7 @@
               </div>
             </div>
           </section>
-          <section class="languages">
+          <section class="languages container">
             <h3 class="languages__title">Languages</h3>
             <ul class="languages__list">
               <li class="languages__item">
