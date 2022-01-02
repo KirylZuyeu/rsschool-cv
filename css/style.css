@@ -29,6 +29,7 @@
 
 body {
   background-color: var(--color__body);
+  font-size: var(--size__text);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -212,47 +213,155 @@ p {
   color: var(--color__title_dark);
 }
 .experience__description {
+  font-style: italic;
 }
 .experience__projects {
+  display: flex;
 }
 .project {
+  margin-top: 10px;
 }
 .project__title {
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 .project__section {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid var(--color__line_dark);
+  padding: 10px;
+  border-radius: 20px;
 }
 .project__tools {
+  font-style: italic;
+  margin: 10px;
 }
 .project__tools_description {
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 .project__tools_list {
+  line-height: 22px;
+  margin-right: 5px;
 }
 .project__tools_item {
+  position: relative;
+  padding-left: 20px;
+}
+
+.project__tools_item:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -5px;
+  width: 5px;
+  height: 11px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: var(--color__link);
+  transform-origin: bottom left;
+  transform: rotate(45deg);
 }
 .project__link {
 }
 .project__link_image {
+  width: 100%;
 }
 .project__tech {
+  font-style: italic;
+  margin: 10px;
 }
 .project__tech_description {
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 .project__tech_list {
+  line-height: 22px;
+  margin-left: 5px;
 }
 .project__tech_item {
+  position: relative;
+  padding-left: 20px;
+}
+.project__tech_item:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -5px;
+  width: 5px;
+  height: 11px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: var(--color__link);
+  transform-origin: bottom left;
+  transform: rotate(45deg);
 }
 .education {
+  padding-top:20px;
+}
+.education__title_container {
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 2px solid var(--color__line_dark);
+  color: var(--color__title_dark);
 }
 .education__title {
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: var(--size__title);
+  font-weight: 700;
+  color: var(--color__title_dark);
 }
 .education__content {
+  margin:20px 0px 10px 0px;
+  font-style: italic;
 }
 .education-selft {
+  
+}
+.education-selft__title {
+  font-weight: 700;
+  margin-bottom:10px;
+  font-size: var(--size__subtitle);
+}
+.education-selft__description {
+}
+.education-selft__text {
+
+}
+.education-selft__link {
+  font-weight: 500;
+  color:var(--color__link);
+  text-decoration: none;
+}
+.education-selft__link:hover {
+  color:var(--color__link_hover);
 }
 .education-univer {
 }
+.education-univer__title {
+  font-weight: 700;
+  margin-bottom:10px;
+  font-size: var(--size__subtitle);
+}
+.education-univer__description {
+}
+.education-univer__text {
+  
+}
+.education-univer__link {
+  font-weight: 500;
+  color:var(--color__link);
+  text-decoration: none;
+}
+.education-univer__link:hover {
+  color:var(--color__link_hover);
+}
+
 .main__aside {
-  background: blue;
+  background: var(--color__main_aside);
   width: 40%;
 }
 .social {
@@ -312,7 +421,8 @@ p {
 .languages__item {
 }
 .footer {
-  background: purple;
+  background: var(--color__footer);
+  height: 100px;
 }
 .footer__container {
 }
