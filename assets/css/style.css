@@ -370,15 +370,52 @@ p {
   background: var(--color__main_aside);
   width: 40%;
 }
+.photo__container {
+  position: relative;
+  height: 426px;
+  background: var(--color__profile-info) ;
+}
+
+.photo__overflow {
+  border-radius: 200px 200px 0px 0px;
+  overflow: hidden;
+  position: absolute;
+  width: 380px;
+  top: -190px;
+}
+
+.photo {
+  width: 100%;
+  top: -300px;
+}
 .social {
+  display: flex;
+  align-items: center;
 }
 .social__list {
+  margin-top:13px;
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid var(--color__line_dark);
+  border-bottom: 2px solid var(--color__line_dark);
 }
 .social__item {
 }
-.social__item_title {
-}
+
 .social__item_link {
+  
+}
+
+.social__item_img {
+  color: var(--color__line_dark);
+  font-size:50px;
+}
+.social__item_img:hover {
+  color: var(--color__link);
+  font-size:50px;
 }
 .contacts {
 }
