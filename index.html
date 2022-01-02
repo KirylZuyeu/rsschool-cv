@@ -13,7 +13,7 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <h1 class="header__title">Kiryl Zuyeu</h1>
+      <h1 class="header__title">Marina Zelenevskaya</h1>
       <p class="header__subtitle">Future Front-End Developer</p>
     </header>
     <main class="main">
@@ -21,55 +21,62 @@
         <div class="main__сontent">
           <section class="profile-info">
             <h2 class="profile-info__title">Profile info</h2>
-            <p class="profile-info__content">I like the process of learning and self-development. I want to get a Front-End Developer position and then will be a team leader in a large IT-company from the coming few years. This will be a proof to myself and others that if you work hard and manage your discipline, you can always change your life and sphere of activity. My main quality is a conscientious attitude to work and focus on the results. Also, I have an extensive experience of managing people, which will help me to be a great team leader.</p>
+            <p class="profile-info__content">I I have vast management experience. Foundations Part of the professional activity was associated with working on large construction projects around the world. But I decided that I wanted to try myself in something new.
+            I can work in a large team and master a huge amount of information, I am also very focused on the result and quality of work.
+            I hope that one day I will be able to apply my professional skills not only in management but also in programming.</p>
           </section>
           <section class="additional-info">
             <h2 class="additional-info__title">Additional info</h2>
-            <p class="additional-info__content">The ability to work in multitasking mode and high analytical abilities allow me to work effectively with large volumes of information.</p>
+            <p class="additional-info__content">Thanks to my managerial experience, I will be able to work in large teams in the future.</p>
           </section>
           <section class="code">
             <h2 class="code__title">Code examples</h2>
             <div class="code__content">
               <div class="code-js">
                 <h3 class="code-js__title">JavaScript task solution:</h3>
-                <p class="code-js__description">If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
-                  Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).</p>
+                <p class="code-js__description">Task is to write a function that takes a string and return a new string with all vowels removed.</p>
                 <pre class="code-js__example">
                   <code>
-                    function solution(number){
-                      var sum = 0;
-                      
-                      for(var i = 1;i< number; i++){
-                        if(i % 3 == 0 || i % 5 == 0){
-                          sum += i
-                        }
-                      }
-                      return sum;
+                    function disemvowel(str) {
+                      return str.replace(/[aeiou]/gi, '');
                     }
                   </code>
                 </pre>
               </div>
               <div class="code-c">
                 <h3 class="code-c__title">C language task solution:</h3>
-                <p class="code-c__description">Funtion of finding the max value in the left side of binary tree.</p>
+                <p class="code-c__description">Check that the arr has negative value.</p>
                 <pre class="code-c__example">
                   <code>
-                    void getMaxLeft(Node** root, int* maxValueLeft) {
-                      Node* tmp = (*root)->left;
-                      if (tmp) {
-                          int maxOfLeft = tmp->key;
-                          while (tmp) {
-                              if (maxOfLeft < tmp->key) {
-                                  maxOfLeft = tmp->key;
-                              }
-                              tmp = tmp->right;
+                    void checkHasNegavite(double* arr, int size, int *posNegFirst, int *posNegSecond) {
+                      bool checkNegativFirst = false;
+                      bool checkNegativSecond = false;
+                      int indexFirst;
+                      int indexSecond;
+                      for (int i = 0; i < size; i++) {
+                        if (*(arr + i) < 0) {
+                          if (!checkNegativFirst) {
+                            checkNegativFirst = true;
+                            indexFirst = i;
+                            continue;
                           }
-                          *maxValueLeft = maxOfLeft;
+                          else {
+                            checkNegativSecond = true;
+                            indexSecond = i;
+                            break;
+                          }
+                        }
                       }
-                      else {
-                          printf("The left branch is empty.");
+                      if (checkNegativFirst == false || checkNegativSecond == false) {
+                        printf_s("Doesn't have conditions of the current task.");
+                        exit(0);
                       }
-                  }
+                    
+                      *posNegFirst = indexFirst;
+                      *posNegSecond = indexSecond;
+                    
+                      return;
+                    }
                   </code>
                 </pre>
               </div>
@@ -77,47 +84,47 @@
             <div class="code-git">
               <span>Or you can check</span>
               <b>My GitHub profile:</b>
-              <a href="https://github.com/KirylZuyeu"  class="code-git__link">@KirylZuyeu</a>
+              <a href="https://github.com/Zelenevskayamarina"  class="code-git__link">@Zelenevskayamarina</a>
             </div>
           </section>
           <section class="experience">
             <h2 class="experience__title">Experience</h2>
-            <p class="experience__description">During all period of education i was doing only one huge project, with following technologies:</p>
+            <p class="experience__description">This is the first experience that i had like a frontend developer, with a following technologies:</p>
             <div class="experience__projects">    
-              <div class="covid-dashboard">
-                <h4>Covid Dashboard</h4>
-                <div>
-                  <p>Tools that i used</p>
-                  <ul>
-                    <li>VSCode</li>
-                    <li>Git</li>
-                    <li>Npm</li>
-                    <li>Webpack</li>
-                    <li>Netlify</li>
-                  </ul>
-                </div>
-                <a href="https://kirylzuyeu-covid-dashboard.netlify.app" target="blank"><img
-                    src="./images/project.PNG" width="100%" alt="Covid Dashdoard Tracker"></a>
-                <div>
-                  <p>Technologies that i used</p>
-                  <ul>
-                    <li>Html</li>
-                    <li>Css</li>
-                    <li>JavaScript</li>
-                    <li>Chart.js</li>
-                    <li>Working with API</li>
-                  </ul>
+              <div class="project">
+                <h4 class="project__title">Responsive Web Site</h4>
+                <div class="project__section">
+                  <div class="project__tools">
+                    <p class="project__tools_description">Tools that i used</p>
+                    <ul class="project__tools_list">
+                      <li class="project__tools_item">VSCode</li>
+                      <li class="project__tools_item">Git</li>
+                      <li class="project__tools_item">Netlify</li>
+                    </ul>
+                  </div>
+                  <a class="project__link" href="https://agitated-allen-8df627.netlify.app" target="blank">
+                    <img class="project__link_image"
+                    src="./images/responsiveWebSite.png" alt="Responsive Web Site">
+                  </a>
+                  <div class="project__tech">
+                    <p class="project__tech_description">Technologies that i used</p>
+                    <ul class="project__tech_list">
+                      <li class="project__tech_item">Html</li>
+                      <li class="project__tech_item">Css</li>
+                      <li class="project__tech_item">JavaScript</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
-          <section>
-            <h2>Education</h2>
-            <div>
-              <div>
+          <section class="education">
+            <h2 class="education__title">Education</h2>
+            <div class="education__content">
+              <div class="education-selft">
                 <p>Selftaught-Education</p>
               </div>
-              <div>
+              <div class="education-univer">
                 <p>University-Graduation</p>
               </div>
             </div>
@@ -125,84 +132,74 @@
         </div>
         <div class="main__aside">
           <figure>
-            <img src="./images/myAvatar.jpg" alt="photo of curriculum vitae Kiryl Zuyeu">
+            <img src="./images/myAvatar.jpg" alt="Marina Zelenevskaya CV Photo">
           </figure>
-          <section>
-            <ul>
-              <li>
-                <span>Skype:</span>
-                <a href="https://join.skype.com/invite/eefLxkBv0HuY"></a>
+          <section class="social">
+            <ul class="social__list">
+              <li class="social__item">
+                <span class="social__item_title">Skype:</span>
+                <a class="social__item_link" href="https://join.skype.com/invite/eefLxkBv0HuY"></a>
               </li>
-              <li>
-                <span>LinkedIn:</span>
-                <a href="https://www.linkedin.com/in/kirylzuyeu"></a>
+              <li class="social__item">
+                <span class="social__item_title">LinkedIn:</span>
+                <a class="social__item_link" href="https://www.linkedin.com/in/kirylzuyeu"></a>
               </li>
-              <li>
-                <span>Facebook:</span>
-                <a href="https://www.facebook.com/kiryl.zuyeu"></a>
+              <li class="social__item">
+                <span class="social__item_title">Facebook:</span>
+                <a class="social__item_link" href="https://www.facebook.com/kiryl.zuyeu"></a>
               </li>
             </ul>
           </section>
-          <section>
-            <h3>Contacts</h3>
-            <ul>
-              <li><b>Address:</b> Belarus, c.Minsk</li>
-              <li><b>Phone:</b> +375292470741</li>
-              <li><b>E-mail:</b> kirylzuyeuimh@gmail.com</li>
-              <li><b>Discord:</b> KirylZuyeu#1555</li>
-              <li><b>Telegram:</b> <a href="https://t.me/KirylZuyeu">@KirylZuyeu</a></li>
+          <section class="contacts">
+            <h3 class="contacts__title">Contacts</h3>
+            <ul class="contacts__list">
+              <li class="contacts__item"><b>Address:</b> Belarus, c.Minsk</li>>
+              <li class="contacts__item"><b>E-mail:</b> mzelianeuskaya@yandex.ru</li>
+              <li class="contacts__item"><b>Discord:</b> Zelenevskayamarina#5123</li>
             </ul>
           </section>
-          <section>
-            <h2>Professional skills:</h2>
-            <div>
-              <div>
-                <h3>FrontEnd</h3>
-                <ul>
-                  <li>HTML5</li>
-                  <li>CSS3: Flex / Grid</li>
-                  <li>Scss</li>
-                  <li>Materialize</li>
-                  <li>JavaScript</li>
-                  <li>React</li>
-                  <li>Vue</li>
-                  <li>Angular</li>
+          <section class="skills">
+            <h2 class="skills__title">Professional skills</h2>
+            <div class="skills__container">
+              <div class="frontEnd-skills">
+                <h2 class="frontEnd-skills__title">FrontEnd</h2>
+                <ul class="frontEnd-skills__list">
+                  <li class="frontEnd-skills__item">HTML5</li>
+                  <li class="frontEnd-skills__item">CSS3: Flex / Grid</li>
+                  <li class="frontEnd-skills__item">JavaScript</li>
                 </ul>
               </div>
-              <div>
-                <h3>Others</h3>
-                <ul>
-                  <li>C language</li>
-                  <li>C++ language</li>
-                  <li>TypeScript</li>
-                  <li>NodeJS</li>
+              <div class="other-skills">
+                <h3 class="other-skills__title">Others</h3>
+                <ul class="other-skills__list">
+                  <li class="other-skills__item">C language</li>
+                  <li class="other-skills__item">C++ language</li>
                 </ul>
               </div>
-              <div>
-                <h3>Additional Tools</h3>
-                <ul>
-                  <li>VSCode</li>
-                  <li>Git</li>
-                  <li>GitHub</li>
-                  <li>Npm</li>
-                  <li>Webpack</li>
-                  <li>Firebase</li>
-                  <li>Netlify</li>
-                  <li>PowerShell</li>
-                  <li>PhotoShop</li>
-                  <li>Figma</li>
+              <div class="additional-tools">
+                <h3 class="additional-tools__title">Additional Tools</h3>
+                <ul class="additional-tools__list">
+                  <li class="additional-tools__item">VSCode</li>
+                  <li class="additional-tools__item">Visual Studio 2019</li>
+                  <li class="additional-tools__item">Git</li>
+                  <li class="additional-tools__item">GitHub</li>
+                  <li class="additional-tools__item">Npm</li>
+                  <li class="additional-tools__item">Netlify</li>
+                  <li class="additional-tools__item">PowerShell</li>
+                  <li class="additional-tools__item">PhotoShop</li>
+                  <li class="additional-tools__item">Virtual machines</li>
                 </ul>
               </div>
             </div>
           </section>
-          <section>
-            <h3>Languages</h3>
-            <ul>
-              <li>
+          <section class="languages">
+            <h3 class="languages__title">Languages</h3>
+            <ul class="languages__list">
+              <li class="languages__item">
                 <b>English:</b> B1 - Intermediate
               </li>
-              <li>
-                <b>Deutsch:</b> A1 - Begginer
+              <li class="languages__item">
+                <b>Chinese:</b> A2 - Upper Elementary
               </li>
             </ul>
           </section>
@@ -210,11 +207,13 @@
       </div>
     </main>
     <footer class="footer">
-      <span>
-        <b>GitHub:</b><a href="https://github.com/KirylZuyeu">@KirylZuyeu</a>
-      </span>
-      <a class="footer__logo" href="https://rs.school/js/" target="blank"></a>
-      <span class="footer__copyright">© The Rolling Scopes 2021</span>
+      <div class="footer__container">
+        <span class="footer__git">
+          <b>GitHub:</b><a href="https://github.com/Zelenevskayamarina">@Zelenevskayamarina</a>
+        </span>
+        <a class="footer__link" class="footer__logo" href="https://rs.school/js/" target="blank"></a>
+        <span class="footer__copyright">© The Rolling Scopes 2022</span>
+      </div>
     </footer>
   </div>
 </body>
