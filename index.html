@@ -89,7 +89,7 @@
             <div class="code-git">
               <span>Or you can check</span>
               <span class="code-git__text">My GitHub profile:</span>
-              <a href="https://github.com/KirylZuyeu"  class="code-git__link">@KirylZuyeu</a>
+              <a href="https://github.com/KirylZuyeu"  class="code-git__link"  target="blank">@KirylZuyeu</a>
             </div>
           </section>
           <section class="experience container">
@@ -139,7 +139,7 @@
                 <div class="education-selft__description">
                   <span>Rsschool JS/FE 2020 — </span>
                   <span class="education-selft__text">(in period, September 2020 - February 2021): </span>
-                  <a href="https://app.rs.school/certificate/trmz9yqo"  class="education-selft__link">@Rsschool, CERTIFICATE - JS/FE 2020</a>
+                  <a href="https://app.rs.school/certificate/trmz9yqo"  class="education-selft__link"  target="blank">@Rsschool, CERTIFICATE - JS/FE 2020</a>
                 </div>
               </div>
               <div class="education-univer">
@@ -147,7 +147,7 @@
                 <div class="education-univer__description">
                   <span>BSUIR, Information Systems Software — </span>
                   <span class="education-univer__text">(in progres, September 2021 - September 2023): </span>
-                  <a href="https://iti.bsuir.by/specialty/2"  class="education-univer__link">@BSUIR, Information Systems Software</a>
+                  <a href="https://iti.bsuir.by/specialty/2"  class="education-univer__link"  target="blank">@BSUIR, Information Systems Software</a>
                 </div>
               </div>
             </div>
@@ -173,23 +173,44 @@
             </ul>
           </section>
           <section class="contacts container">
-            <h3 class="contacts__title">Contacts</h3>
+            <div class="contacts__title_container">
+              <h3 class="contacts__title">Contacts</h3>
+            </div>
             <ul class="contacts__list">
-              <li class="contacts__item"><b>Address:</b> Belarus, c.Minsk</li>
-              <li class="contacts__item"><b>Phone:</b> +375292470741</li>
-              <li class="contacts__item"><b>E-mail:</b> kirylzuyeuimh@gmail.com</li>
-              <li class="contacts__item"><b>Discord:</b> KirylZuyeu#1555</li>
-              <li class="contacts__item"><b>Telegram:</b> <a href="https://t.me/KirylZuyeu">@KirylZuyeu</a></li>
+              <li class="contacts__item">
+                <i class="fas fa-map-marker-alt contacts__item_img adress"></i> 
+                <span class="contacts__item_info">Belarus, c.Minsk</span>
+              </li>
+              <li class="contacts__item">
+                <i class="fas fa-phone-square-alt contacts__item_img phone"></i> 
+                <span class="contacts__item_info">+375292470741</span>
+              </li>
+              <li class="contacts__item">
+                <i class="fas fa-envelope contacts__item_img mail"></i>
+                <span class="contacts__item_info">kirylzuyeuimh@gmail.com</span>
+              </li>
+              <li class="contacts__item">
+                <i class="fab fa-discord contacts__item_img discord"></i>
+                <span class="contacts__item_info">KirylZuyeu#1555</span>
+              </li>
+              <li class="contacts__item">
+                <i class="fab fa-telegram contacts__item_img telegram"></i>
+                <a class="contacts__item_link" href="https://t.me/KirylZuyeu" target="blank">@KirylZuyeu</a>
+              </li>
             </ul>
           </section>
           <section class="skills container">
-            <h2 class="skills__title">Professional skills</h2>
-            <div class="skills__container">
+            <div class="skills__title_container">
+              <h2 class="skills__title">Professional skills</h2>
+            </div>
+            <div class="skills__wrapper">
               <div class="frontEnd-skills">
                 <h2 class="frontEnd-skills__title">FrontEnd</h2>
                 <ul class="frontEnd-skills__list">
                   <li class="frontEnd-skills__item">HTML5</li>
-                  <li class="frontEnd-skills__item">CSS3: Flex / Grid</li>
+                  <li class="frontEnd-skills__item">CSS3</li>
+                  <li class="frontEnd-skills__item">Flex</li>
+                  <li class="frontEnd-skills__item">Grid</li>
                   <li class="frontEnd-skills__item">Scss</li>
                   <li class="frontEnd-skills__item">Materialize</li>
                   <li class="frontEnd-skills__item">JavaScript</li>
@@ -201,8 +222,8 @@
               <div class="other-skills">
                 <h3 class="other-skills__title">Others</h3>
                 <ul class="other-skills__list">
-                  <li class="other-skills__item">C language</li>
-                  <li class="other-skills__item">C++ language</li>
+                  <li class="other-skills__item">C</li>
+                  <li class="other-skills__item">C++</li>
                   <li class="other-skills__item">TypeScript</li>
                   <li class="other-skills__item">NodeJS</li>
                 </ul>
@@ -226,13 +247,12 @@
             </div>
           </section>
           <section class="languages container">
-            <h3 class="languages__title">Languages</h3>
+            <div class="languages__title_container">
+              <h3 class="languages__title">Languages</h3>
+            </div>
             <ul class="languages__list">
-              <li class="languages__item">
-                <b>English:</b> B1 - Intermediate
-              </li>
-              <li class="languages__item">
-                <b>Deutsch:</b> A1 - Begginer
+              <li class="languages__item">English: B1 - Intermediate</li>
+              <li class="languages__item">Deutsch: A1 - Begginer
               </li>
             </ul>
           </section>
@@ -242,7 +262,7 @@
     <footer class="footer">
       <div class="footer__container">
         <a class="footer__git" href="https://github.com/KirylZuyeu" target="blank"><i class="fab fa-github footer__git_img"></i></a>
-        <a class="footer__rsschool" href="https://rs.school/js/" target="blank">
+        <a class="footer__rsschool" href="https://rs.school/js-stage0/" target="blank">
           <img class="footer__rsschool_img" src="./assets/icons/rsschool.svg" alt="Rsschool Icon">
         </a>
         <span class="footer__copyright">© The Rolling Scopes 2022</span>
