@@ -541,7 +541,7 @@ p {
   font-style: italic;
 }
 .languages {
-  padding-top:20px;
+  padding-top:10px;
 }
 .languages__title_container {
   display: flex;
