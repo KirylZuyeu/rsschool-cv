@@ -23,7 +23,7 @@
     </header>
     <main class="main">
       <div class="main_wrapper">
-        <div class="main__сontent">
+        <div class="main__content">
           <section class="profile-info container">
             <div class="profile-info__title_container">
               <h2 class="profile-info__title">Profile info</h2>
@@ -67,14 +67,14 @@
                 <pre class="code-c__example">
                   <code>
                     void getMaxLeft(Node** root, int* maxValueLeft) {
-                      Node* tmp = (*root)->left;
+                      Node* tmp = (*root)-&gt;left;
                       if (tmp) {
-                        int maxOfLeft = tmp->key;
+                        int maxOfLeft = tmp-&gt;key;
                         while (tmp) {
-                          if (maxOfLeft &lt; tmp->key) {
-                            maxOfLeft = tmp->key;
+                          if (maxOfLeft &lt; tmp-&gt;key) {
+                            maxOfLeft = tmp-&gt;key;
                           }
-                            tmp = tmp->right;
+                            tmp = tmp-&gt;right;
                           }
                           *maxValueLeft = maxOfLeft;
                       }
@@ -89,7 +89,7 @@
             <div class="code-git">
               <span>Or you can check</span>
               <span class="code-git__text">My GitHub profile:</span>
-              <a href="https://github.com/KirylZuyeu"  class="code-git__link"  target="blank">@KirylZuyeu</a>
+              <a href="https://github.com/KirylZuyeu" class="code-git__link" target="blank">@KirylZuyeu</a>
             </div>
           </section>
           <section class="experience container">
@@ -139,17 +139,17 @@
                 <div class="education-selft__description">
                   <span>Rsschool JS/FE 2020 — </span>
                   <span class="education-selft__text">(in period, September 2020 - February 2021): </span>
-                  <a href="https://app.rs.school/certificate/trmz9yqo"  class="education-selft__link"  target="blank">@Rsschool, CERTIFICATE - JS/FE 2020</a>
+                  <a href="https://app.rs.school/certificate/trmz9yqo" class="education-selft__link" target="blank">@Rsschool, CERTIFICATE - JS/FE 2020</a>
                 </div>
                 <div class="education-selft__description">
                   <span>JS/FE Pre-School 2022 — </span>
                   <span class="education-selft__text">(in period, December 2021 - March 2022): </span>
-                  <a href="https://app.rs.school/certificate/n9tmmqsz"  class="education-selft__link"  target="blank">@Rsschool, CERTIFICATE - JS/FE Pre-School 2022</a>
+                  <a href="https://app.rs.school/certificate/n9tmmqsz" class="education-selft__link" target="blank">@Rsschool, CERTIFICATE - JS/FE Pre-School 2022</a>
                 </div>
                 <div class="education-selft__description">
                   <span>NodeJS 2022 Q2 — </span>
                   <span class="education-selft__text">(in progres, May 2022 - August 2022): </span>
-                  <a href="https://rs.school/nodejs/"  class="education-selft__link"  target="blank">@Rsschool, NodeJS 2022 Q2</a>
+                  <a href="https://rs.school/nodejs/" class="education-selft__link" target="blank">@Rsschool, NodeJS 2022 Q2</a>
                 </div>
               </div>
               <div class="education-univer">
@@ -157,7 +157,7 @@
                 <div class="education-univer__description">
                   <span>BSUIR, Information Systems Software — </span>
                   <span class="education-univer__text">(in progres, September 2021 - March 2023): </span>
-                  <a href="https://iti.bsuir.by/specialty/2"  class="education-univer__link"  target="blank">@BSUIR, Information Systems Software</a>
+                  <a href="https://iti.bsuir.by/specialty/2" class="education-univer__link" target="blank">@BSUIR, Information Systems Software</a>
                 </div>
               </div>
             </div>
