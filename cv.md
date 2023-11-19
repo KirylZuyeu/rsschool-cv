@@ -144,11 +144,11 @@ On this project, ***the task that stood*** in front of me was the ***creation of
 * Completed
   * ***[Rsschool, CERTIFICATE - JS/FE 2020 Q3](https://app.rs.school/certificate/trmz9yqo)***  
   [![CERTIFICATE - JS/FE 2020 Q3](./assets/images/RSSchool_2020_Main-1.png)](https://app.rs.school/certificate/trmz9yqo "Click for watching 'Rsschool, CERTIFICATE - JS/FE 2020 Q3'")
-  * ***[Rsschool, CERTIFICATE - JS/FE Pre-School 2022](https://app.rs.school/certificate/trmz9yqo)***  
+  * ***[Rsschool, CERTIFICATE - JS/FE Pre-School 2022](https://app.rs.school/certificate/n9tmmqsz)***  
   [![CERTIFICATE - JS/FE Pre-School 2022](./assets/images/RSSchool_2022_Begin-1.png)](https://app.rs.school/certificate/n9tmmqsz "Click for watching 'Rsschool, CERTIFICATE - JS/FE Pre-School 2022'")
-  * ***[Rsschool, CERTIFICATE - JS/FE 2022Q1](https://app.rs.school/certificate/trmz9yqo)***  
+  * ***[Rsschool, CERTIFICATE - JS/FE 2022Q1](https://app.rs.school/certificate/qnmtn5jl)***  
   [![CERTIFICATE - JS/FE 2022Q1](./assets/images/RSSchool_2022_Main-1.png)](https://app.rs.school/certificate/qnmtn5jl "Click for watching 'Rsschool, CERTIFICATE - JS/FE 2022Q1'")
-  * ***[Rsschool, CERTIFICATE - JS/FE Pre-School 2023Q2](https://app.rs.school/certificate/trmz9yqo)***  
+  * ***[Rsschool, CERTIFICATE - JS/FE Pre-School 2023Q2](https://app.rs.school/certificate/ncr3vjy6)***  
   [![CERTIFICATE - JS/FE Pre-School 2023Q2](./assets/images/RSSchool_2023_Begin-1.png)](https://app.rs.school/certificate/ncr3vjy6 "Click for watching 'Rsschool, CERTIFICATE - JS/FE Pre-School 2023Q2'")
 * Not Completed
   * ***Rsschool, ST 2021 Q1***
