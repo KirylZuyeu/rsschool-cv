@@ -143,13 +143,13 @@ On this project, ***the task that stood*** in front of me was the ***creation of
 
 * Completed
   * ***[Rsschool, CERTIFICATE - JS/FE 2020 Q3](https://app.rs.school/certificate/trmz9yqo)***  
-  [![CERTIFICATE - JS/FE 2020 Q3](https://github.com/KirylZuyeu/rsschool-cv/blob/gh-pages/assets/images/RSSchool_2020_Main-1.png)](https://app.rs.school/certificate/trmz9yqo "Click for watching 'Rsschool, CERTIFICATE - JS/FE 2020 Q3'")
+  [![CERTIFICATE - JS/FE 2020 Q3](./assets/images/RSSchool_2020_Main-1.png)](https://app.rs.school/certificate/trmz9yqo "Click for watching 'Rsschool, CERTIFICATE - JS/FE 2020 Q3'")
   * ***[Rsschool, CERTIFICATE - JS/FE Pre-School 2022](https://app.rs.school/certificate/trmz9yqo)***  
-  [![CERTIFICATE - JS/FE Pre-School 2022](https://github.com/KirylZuyeu/rsschool-cv/blob/gh-pages/assets/images/RSSchool_2022_Begin-1.png)](https://app.rs.school/certificate/n9tmmqsz "Click for watching 'Rsschool, CERTIFICATE - JS/FE Pre-School 2022'")
+  [![CERTIFICATE - JS/FE Pre-School 2022](./assets/images/RSSchool_2022_Begin-1.png)](https://app.rs.school/certificate/n9tmmqsz "Click for watching 'Rsschool, CERTIFICATE - JS/FE Pre-School 2022'")
   * ***[Rsschool, CERTIFICATE - JS/FE 2022Q1](https://app.rs.school/certificate/trmz9yqo)***  
-  [![CERTIFICATE - JS/FE 2022Q1](https://github.com/KirylZuyeu/rsschool-cv/blob/gh-pages/assets/images/RSSchool_2022_Main-1.png)](https://app.rs.school/certificate/qnmtn5jl "Click for watching 'Rsschool, CERTIFICATE - JS/FE 2022Q1'")
+  [![CERTIFICATE - JS/FE 2022Q1](./assets/images/RSSchool_2022_Main-1.png)](https://app.rs.school/certificate/qnmtn5jl "Click for watching 'Rsschool, CERTIFICATE - JS/FE 2022Q1'")
   * ***[Rsschool, CERTIFICATE - JS/FE Pre-School 2023Q2](https://app.rs.school/certificate/trmz9yqo)***  
-  [![CERTIFICATE - JS/FE Pre-School 2023Q2](https://github.com/KirylZuyeu/rsschool-cv/blob/gh-pages/assets/images/RSSchool_2023_Begin-1.png)](https://app.rs.school/certificate/ncr3vjy6 "Click for watching 'Rsschool, CERTIFICATE - JS/FE Pre-School 2023Q2'")
+  [![CERTIFICATE - JS/FE Pre-School 2023Q2](./assets/images/RSSchool_2023_Begin-1.png)](https://app.rs.school/certificate/ncr3vjy6 "Click for watching 'Rsschool, CERTIFICATE - JS/FE Pre-School 2023Q2'")
 * Not Completed
   * ***Rsschool, ST 2021 Q1***
   
@@ -160,8 +160,9 @@ Studying with **27.09.2021** till **27.09.2023** - ***[BSUIR, Information System
 
 ## **Languages** ##
 
+* **Russian:** Native
+
 * **English:** B1 - Intermediate (***according to the online test at*** [www.efset.org](https://www.efset.org/quick-check/))
-![EnglishCertificate](https://github.com/KirylZuyeu/rsschool-cv/blob/gh-pages/assets/images/english.PNG)
-* **Deutsch:**
-  ***[Germany, Regensburg - Deutsch Courses A1.2](https://www.sprachschule-aktiv-regensburg.de/en/)***  
-  ![CERTIFICATE - Deutsch Courses A1.2](https://github.com/KirylZuyeu/rsschool-cv/blob/gh-pages/assets/images/Deutsch_A1.1_Sertificate.jpg)
+![EnglishCertificate](./assets/images/english.PNG)
+* **Deutsch:** A2 - Elementary (***according to the test in*** [Germany, Sprachschule Aktiv Regensburg](https://www.sprachschule-aktiv-regensburg.de/en/))
+![Deutsch Certificate A1.2](./assets/images/Deutsch_A1.1_Sertificate.jpg)
