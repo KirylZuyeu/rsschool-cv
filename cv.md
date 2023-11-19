@@ -4,11 +4,13 @@
 
 ## **Contacts** ##
 
-* **Address:** Belarus, Minsk
-* **Phone:** +375292470741  
+* **Address:** Regensburg, Germany
+* **Phone:** +4915251996355
 * **E-mail:** kirylzuyeuimh@gmail.com
-* **Discord:** KirylZuyeu#1555
+* **FaceBook** [@KirylZuyeu](https://www.facebook.com/profile.php?id=100087954735610&mibextid=LQQJ4d)
+* **LinkedIn** [@KirylZuyeu](https://www.linkedin.com/in/kirylzuyeu/)
 * **Telegram** [@KirylZuyeu](https://t.me/KirylZuyeu)
+* **Discord:** [@KirylZuyeu](https://discordapp.com/users/450774305236713503/)
 
 ***
 
