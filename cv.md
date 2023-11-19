@@ -133,7 +133,7 @@ During all period of education i was doing only one huge project, with following
 
 On this project, ***the task that stood*** in front of me was the ***creation of graphs*** based on the data obtained about covid ill people. And the main ***technology that i use***, was ***Chank.js*** library.
 
-[![CovidDashboard](https://github.com/KirylZuyeu/rsschool-cv/blob/gh-pages/assets/images/project.PNG)](https://kirylzuyeu-covid-dashboard.netlify.app/ "Click for watching 'Covid Dashboard'")
+[![CovidDashboard](./assets/images/project.PNG)](https://kirylzuyeu-covid-dashboard.netlify.app/ "Click for watching 'Covid Dashboard'")
 
 ***
 
