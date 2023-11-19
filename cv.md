@@ -162,7 +162,9 @@ Studying with **27.09.2021** till **27.09.2023** - ***[BSUIR, Information System
 
 * **Russian:** Native
 
-* **English:** B1 - Intermediate (***according to the online test at*** [www.efset.org](https://www.efset.org/quick-check/))
-![EnglishCertificate](./assets/images/english.PNG)
-* **Deutsch:** A2 - Elementary (***according to the test in*** [Germany, Sprachschule Aktiv Regensburg](https://www.sprachschule-aktiv-regensburg.de/en/))
-![Deutsch Certificate A1.2](./assets/images/Deutsch_A1.1_Sertificate.jpg)
+* **English:** B1 - Intermediate (***according to the online test at*** [www.efset.org](https://www.efset.org/quick-check/))  
+
+  ![EnglishCertificate](./assets/images/english.PNG)
+* **Deutsch:** A2 - Elementary (***according to the test in*** [Germany, Sprachschule Aktiv Regensburg](https://www.sprachschule-aktiv-regensburg.de/en/))  
+
+   ![Deutsch Certificate A1.2](./assets/images/Deutsch_A1.1_Sertificate.jpg)
