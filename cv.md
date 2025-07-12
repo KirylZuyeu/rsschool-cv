@@ -163,6 +163,7 @@ Development of an application for learning English.
 [![EnglishApp](./assets/images/EnglishApp.png)](https://kzenglish.onrender.com/ "Click for watching 'EnglishApp'")
 
 [EnglishApp](https://kzenglish.onrender.com/)
+
 ***
 
 ## **Education**
@@ -194,6 +195,7 @@ Studying with **27.09.2021** till **11.04.2025** - ***[BSUIR, Information System
 
 * **English:** B2 - Upper-Intermediate (***according to the online test at*** [www.efset.org](https://www.efset.org/quick-check/)) -  Mostly I use English in my daily life - it is the more commonly used way of communication nowadays.
 * **Deutsch:** B2 - Upper-Intermediate (***according to the test in*** [Germany, Sprachschule Aktiv Regensburg](https://www.sprachschule-aktiv-regensburg.de/en/)) - Сompleted all stages of integration courses. I work with German-speaking clients
+
 ![Deutsch Certificate B2](./assets/images/B2-courseAnmeldung.png)
 
 * **Scheduled:** The TELC test is scheduled for November 2025.
