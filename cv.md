@@ -1,29 +1,30 @@
-# **Kiryl Zuyeu** #
+# **Kiryl Zuyeu**
 
 ***
 
-## **Contacts** ##
+## **Contacts**
 
 * **Address:** Regensburg, Germany
 * **Phone:** +4915251996355
 * **E-mail:** kirylzuyeuimh@gmail.com
-* **FaceBook** [@KirylZuyeu](https://www.facebook.com/profile.php?id=100087954735610&mibextid=LQQJ4d)
 * **LinkedIn** [@KirylZuyeu](https://www.linkedin.com/in/kirylzuyeu/)
 * **Telegram** [@KirylZuyeu](https://t.me/KirylZuyeu)
 * **Discord:** [@KirylZuyeu](https://discordapp.com/users/450774305236713503/)
-* **Skype:** [@KirylZuyeu](https://join.skype.com/invite/eefLxkBv0HuY)
+* **FaceBook** [@KirylZuyeu](https://www.facebook.com/profile.php?id=100087954735610&mibextid=LQQJ4d)
 
 ***
 
-## **Summary** ##
+## **Summary**
 
 I like the process of learning and self-development. I want to get a Front-End Developer position and then will be a team leader in a large IT-company from the coming few years. This will be a proof to myself and others that if you work hard and manage your discipline, you can achive all goals that you follow. My main quality is a conscientious attitude to work and focus on the results. Also, I have an extensive experience of managing people, which will help me to be a great team leader.
 
+**RSSchoolAppCV:** [@KirylZuyeu](https://app.rs.school/cv/db2d0404-3a0d-4bfe-a425-24227ab3f8e4)
+
 ***
 
-## **Professional skills** ##
+## **Professional skills**
 
-### **FrontEnd** ###
+### **FrontEnd**
 
 * HTML5
 * CSS3
@@ -33,6 +34,7 @@ I like the process of learning and self-development. I want to get a Front-End D
 * CSS-Frameworks
   * Bootstrap 4
   * Materialize
+  * TailwindCSS
 * JavaScript
   * ES6+
   * Babel
@@ -41,8 +43,9 @@ I like the process of learning and self-development. I want to get a Front-End D
   * React
   * Vue
   * Angular
+  * NuxtJS
 
-### **Others** ###
+### **Others**
 
 * C language
 * C++ language
@@ -52,7 +55,7 @@ I like the process of learning and self-development. I want to get a Front-End D
 * SQL
 * MSSQL
 
-### **Additional Tools** ###
+### **Additional Tools**
 
 * VSCode
 * Visual Studio 2019
@@ -69,7 +72,7 @@ I like the process of learning and self-development. I want to get a Front-End D
 
 ***
 
-## **Code examples** ##
+## **Code examples**
 
 ***JavaScript task solution:***
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
@@ -116,9 +119,11 @@ void getMaxLeft(Node** root, int* maxValueLeft) {
 
 ***
 
-## **Experience** ##
+## **Experience**
 
-During all period of education i was doing only one huge project, with following technologies:
+No commercial experience
+
+Example of a ***team development Pet-Project***:
 
 * VSCode
 * Git
@@ -135,11 +140,41 @@ On this project, ***the task that stood*** in front of me was the ***creation of
 
 [![CovidDashboard](./assets/images/project.PNG)](https://kirylzuyeu-covid-dashboard.netlify.app/ "Click for watching 'Covid Dashboard'")
 
+[CovidDashboard](https://kirylzuyeu-covid-dashboard.netlify.app/)
+
+Example of a ***self development Pet-Project***:
+
+* VSCode
+* Git
+* Npm
+* Webpack
+* Bootstrap
+* Render
+* HTML
+* CSS
+* JavaScript
+* TypeScript
+* NodeJS
+* ExpressJS
+* MongoDB
+
+Development of an application for learning English.
+
+[![EnglishApp](./assets/images/EnglishApp.png)](https://kzenglish.onrender.com/ "Click for watching 'EnglishApp'")
+
+[EnglishApp](https://kzenglish.onrender.com/)
 ***
 
-## **Education** ##
+## **Education**
 
-### **Selftaught-Education** ###
+***
+  
+### **University-Graduation**
+
+Studying with **27.09.2021** till **11.04.2025** - ***[BSUIR, Information Systems Software](https://iti.bsuir.by/specialty/2)*** 
+***
+
+### **Selftaught-Education**
 
 * Completed
   * ***[Rsschool, CERTIFICATE - JS/FE 2020 Q3](https://app.rs.school/certificate/trmz9yqo)***  
@@ -152,19 +187,13 @@ On this project, ***the task that stood*** in front of me was the ***creation of
   [![CERTIFICATE - JS/FE Pre-School 2023Q2](./assets/images/RSSchool_2023_Begin-1.png)](https://app.rs.school/certificate/ncr3vjy6 "Click for watching 'Rsschool, CERTIFICATE - JS/FE Pre-School 2023Q2'")
 * Not Completed
   * ***Rsschool, ST 2021 Q1***
-  
-### **University-Graduation** ###
 
-Studying with **27.09.2021** till **27.09.2023** - ***[BSUIR, Information Systems Software](https://iti.bsuir.by/specialty/2)*** (in progress)
-***
-
-## **Languages** ##
+## **Languages**
 
 * **Russian:** Native
 
-* **English:** B1 - Intermediate (***according to the online test at*** [www.efset.org](https://www.efset.org/quick-check/))  
+* **English:** B2 - Upper-Intermediate (***according to the online test at*** [www.efset.org](https://www.efset.org/quick-check/)) -  Mostly I use English in my daily life - it is the more commonly used way of communication nowadays.
+* **Deutsch:** B2 - Upper-Intermediate (***according to the test in*** [Germany, Sprachschule Aktiv Regensburg](https://www.sprachschule-aktiv-regensburg.de/en/)) - Сompleted all stages of integration courses. I work with German-speaking clients
+![Deutsch Certificate B2](./assets/images/B2-courseAnmeldung.png)
 
-  ![EnglishCertificate](./assets/images/english.PNG)
-* **Deutsch:** A2 - Elementary (***according to the test in*** [Germany, Sprachschule Aktiv Regensburg](https://www.sprachschule-aktiv-regensburg.de/en/))  
-
-   ![Deutsch Certificate A1.2](./assets/images/Deutsch_A1.1_Sertificate.jpg)
+* **Scheduled:** The TELC test is scheduled for November 2025.
