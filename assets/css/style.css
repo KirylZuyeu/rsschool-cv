@@ -272,6 +272,10 @@ p {
   font-style: italic;
 }
 
+.experience__description_title {
+  font-weight: 700;
+}
+
 .experience__projects {
   display: flex;
 }
@@ -621,7 +625,7 @@ p {
   border-radius: 10px;
   background: #FFF;
 }
-/* 
+/*
 .frontEnd-skills__title {
   font-weight: 500;
 }
